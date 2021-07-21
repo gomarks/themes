@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"strings"
 
-	adminTemplate "github.com/gomarks/go-admin/template"
+	adminTemplate "github.com/GoAdminGroup/go-admin/template"
 )
 
 type ProgressGroup struct {

@@ -3,12 +3,12 @@ package bjca
 import (
 	"strings"
 
+	adminTemplate "github.com/GoAdminGroup/go-admin/template"
+	"github.com/GoAdminGroup/go-admin/template/components"
+	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/GoAdminGroup/themes/bjca/resource"
+	"github.com/GoAdminGroup/themes/common"
 	"github.com/gobuffalo/packr/v2"
-	adminTemplate "github.com/gomarks/go-admin/template"
-	"github.com/gomarks/go-admin/template/components"
-	"github.com/gomarks/go-admin/template/types"
-	"github.com/gomarks/themes/bjca/resource"
-	"github.com/gomarks/themes/common"
 )
 
 const (

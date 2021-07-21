@@ -1,7 +1,7 @@
 # GoAdmin 官方主题
 
-- [adminlte](https://github.com/gomarks/themes/tree/master/adminlte)
-- [sword](https://github.com/gomarks/themes/tree/master/sword)
+- [adminlte](https://github.com/GoAdminGroup/themes/tree/master/adminlte)
+- [sword](https://github.com/GoAdminGroup/themes/tree/master/sword)
 
 ## 自定义主题
  - bjca ， 基于 adminlte 自定义了 footer.tmpl ，make 时未被 common 替换
@@ -17,7 +17,7 @@ package main
 
 import (
 	...
-	_ "github.com/gomarks/themes/bjca"
+	_ "github.com/GoAdminGroup/themes/bjca"
 	...
 )
 

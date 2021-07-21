@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package bjca
 
-import _ "github.com/gomarks/themes/bjca/packrd"
+import _ "github.com/GoAdminGroup/themes/bjca/packrd"
