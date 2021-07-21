@@ -2,12 +2,12 @@ package bjca
 
 import (
 	"strings"
+	"themes/bjca/resource"
 
-	adminTemplate "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/components"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gobuffalo/packr/v2"
-	"github.com/gomarks/themes/bjca/resource"
+	adminTemplate "github.com/gomarks/go-admin/template"
+	"github.com/gomarks/go-admin/template/components"
+	"github.com/gomarks/go-admin/template/types"
 	"github.com/gomarks/themes/common"
 )
 

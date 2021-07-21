@@ -3,11 +3,11 @@ package separation
 import (
 	"io/ioutil"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	adminTemplate "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/components"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/gomarks/themes/bjca/resource"
+	"github.com/gomarks/go-admin/modules/config"
+	adminTemplate "github.com/gomarks/go-admin/template"
+	"github.com/gomarks/go-admin/template/components"
+	"github.com/gomarks/go-admin/template/types"
+	"themes/bjca/resource"
 	"github.com/gomarks/themes/common"
 )
 
