@@ -1,6 +1,7 @@
 all:
 	make -C ./adminlte
 	make -C ./sword
+	make -C ./bjca
 	make fmt
 
 fmt:

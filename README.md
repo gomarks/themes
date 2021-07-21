@@ -16,7 +16,7 @@ package main
 
 import (
 	...
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/GoAdminGroup/themes/bjca"
 	...
 )
 
@@ -27,7 +27,7 @@ func main()  {
 	cfg := config.Config{
     		...
     		
-    		Theme: "adminlte",
+    		Theme: "bjca",
     		
     		...
     	}
