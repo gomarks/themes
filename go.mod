@@ -7,5 +7,4 @@ require (
 	github.com/gomarks/themes v0.0.0-00010101000000-000000000000
 	github.com/gobuffalo/packr/v2 v2.8.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
-
 )
