@@ -1,14 +1,13 @@
 package bjca
 
 import (
-	"strings"
-	"themes/bjca/resource"
-
 	"github.com/gobuffalo/packr/v2"
 	adminTemplate "github.com/gomarks/go-admin/template"
 	"github.com/gomarks/go-admin/template/components"
 	"github.com/gomarks/go-admin/template/types"
+	"github.com/gomarks/themes/bjca/resource"
 	"github.com/gomarks/themes/common"
+	"strings"
 )
 
 const (

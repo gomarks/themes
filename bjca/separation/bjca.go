@@ -7,7 +7,7 @@ import (
 	adminTemplate "github.com/gomarks/go-admin/template"
 	"github.com/gomarks/go-admin/template/components"
 	"github.com/gomarks/go-admin/template/types"
-	"themes/bjca/resource"
+	"github.com/gomarks/themes/bjca/resource"
 	"github.com/gomarks/themes/common"
 )
 
