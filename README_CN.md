@@ -3,6 +3,9 @@
 - [adminlte](https://github.com/gomarks/themes/tree/master/adminlte)
 - [sword](https://github.com/gomarks/themes/tree/master/sword)
 
+## 自定义主题
+ - bjca ， 自定义了 footer.tmpl ，make 时未被 common 替换
+
 ## 如何使用
 
 - 导入主题

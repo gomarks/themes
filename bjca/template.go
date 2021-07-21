@@ -2715,14 +2715,10 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
     </aside>
 {{end}}`, "footer": `{{define "footer"}}
     <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            <b>Version</b> {{.System.Version}}
-        </div>
-        <div class="pull-right hidden-xs">
-            <b>Theme</b> {{.System.Theme}}&nbsp;&nbsp;
-        </div>
-        <strong>Powered by <a href="https://github.com/gomarks/go-admin">GoAdmin</a>.</strong>
-        {{.FooterInfo}}
+        <center>
+            <strong><a href="https://www.bjca.cn/">©2021 北京数字认证股份有限公司</a></strong>
+                        {{.FooterInfo}}
+        </center>
     </footer>
 {{end}}`, "head": `{{define "head"}}
     <head>

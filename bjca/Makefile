@@ -27,6 +27,8 @@ rebuild-dist:
 	cp -R $(ASSETS_PATH)/src/img $(ASSETS_PATH)/dist/
 	cp -R $(ASSETS_PATH)/src/fonts $(ASSETS_PATH)/dist/
 
+	cp $(SEPARATION_PATH)/public/pages/footer.tmpl $(RESOURCE_PATH)/pages/footer.tmpl
+
 	rm -rf $(SEPARATION_PATH)/public
 	mkdir $(SEPARATION_PATH)/public
 
