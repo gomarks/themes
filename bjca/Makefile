@@ -12,6 +12,7 @@ build: rebuild-dist combine build-separation-zip build-assets build-tmpl clean f
 
 # clean old dist folder, create new dist folder.
 # 删除旧的dist文件夹，新建新的dist文件夹
+# 新增加了可以用的已 combine js，直接复制到 assert 的 src 和 dist 相对应的目录
 rebuild-dist:
 	rm -rf $(ASSETS_PATH)/dist
 	mkdir $(ASSETS_PATH)/dist
@@ -19,7 +20,7 @@ rebuild-dist:
 	mkdir $(ASSETS_PATH)/dist/css
 	cp -R $(COMMON_PATH)/assets/* $(ASSETS_PATH)/src/
 	cp $(RESOURCE_PATH)/bjca/bjca.css $(ASSETS_PATH)/src/css/combine/g_all.css
-	cp $(ASSETS_PATH)/src/js/*.js $(ASSETS_PATH)/dist/js/
+	cp $(ASSETS_PATH)/src/combined/js/*.js $(ASSETS_PATH)/dist/js/
 	cp $(ASSETS_PATH)/src/css/*.png $(ASSETS_PATH)/dist/css/
 	cp -R $(COMMON_PATH)/pages/* $(RESOURCE_PATH)/pages/
 
@@ -36,9 +37,11 @@ rebuild-dist:
 	cp -R $(RESOURCE_PATH)/pages $(SEPARATION_PATH)/public/pages
 	rm -rf $(SEPARATION_PATH)/public/assets/vendor
 
+
 # combine frontend assets(js/css)
 # 合并并压缩前端js/css
-combine: remove combine-js combine-css
+# 不再压缩 js ，使用已经压缩好的，没有修改其它主题
+combine: remove combine-css
 
 combine-js:
 	$(CLI) combine js --hash=true --src=$(ASSETS_PATH)/src/js/all/ --dist=$(ASSETS_PATH)/dist/js/all.min.js
