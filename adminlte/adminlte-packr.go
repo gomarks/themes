@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package adminlte
 
-import _ "themes/adminlte/packrd"
+import _ "github.com/gomarks/themes/adminlte/packrd"
